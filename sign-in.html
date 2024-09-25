@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cake</title>
+        <link rel="stylesheet" href="sign-in.css">
+    </head>
+    <body>
+        <div class="parent">
+            <center>
+                <div class="card">
+                    <img class="logo" src="./image/logo.png" alt="">
+                    <h3 class="name">Cake Bakery</h3>
+                    <br><br>
+                    <form acion="connect.php" method="post">
+                        <label for="user-name" class="custom-label">
+                            <input  type="text" placeholder="Name" name="user-name">
+                            <br><br>
+                            <input  type="text" placeholder=" e-mail"name="email" required><br><br>
+                        </label>
+                        <label style="color: antiquewhite;" for="age">Select your age:</label>
+                        <select class="select-box" id="age" name="age">
+                            <option value="" disabled selected>Select Age</option>
+                            <option value="1" name="one">1-10</option>
+                            <option value="2" name="two">11-20</option>
+                            <option value="3" name="three">21-30</option>
+                            <option value="4" name="four">31-40</option>
+                            <option value="5" name="five">41-50</option>
+                            <option value="6" name="six">51 above</option>
+                        </select>
+                        <br><br>
+                        <input  type="text" placeholder=" Address" name="Address" required><br><br>
+                        <input  type="text" placeholder=" password" name="password required><br><br>
+                        <input  type="text" placeholder=" Confirm password"  name="conpass"required><br><br><br>
+                        <button class="signin-button" onclick="signin()">sign-in</button>
+                    </form>
+                </div>
+            </center>
+        </div>
+        <script>           
+            function signin() {
+                window.location.href="index.html";
+            }
+        </script>
+    </body>
+</html>

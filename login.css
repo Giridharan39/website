@@ -1,0 +1,65 @@
+body{
+    background-color: #623f1b;
+}
+.logo{
+    width: 300px;
+    
+}
+.logo:hover{
+    width: 350px;;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{
+    background-color: #2e1700;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    border-radius: 16px;
+}
+.name{
+    color:antiquewhite;
+    font-size:70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #e7d1ba;
+    color: #2e1700;
+    font-size: 20px;
+}
+
+.login-button,
+.signin-button{
+    background-color: #e7d1ba;
+    color: rgb(82, 62, 1);
+    height: 50px;
+    width: 80px;
+    font-size:large;
+    font-weight: 1000;
+    border: none;
+    border-radius: 23px;
+    margin-left: 10px;
+}
+.signin-button:hover{
+    background-color: #623f1b;
+    color: #e7d1ba;
+    box-shadow: #e7d1ba;
+}
+
+.select-box{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
